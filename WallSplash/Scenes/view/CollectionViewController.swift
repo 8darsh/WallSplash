@@ -29,6 +29,7 @@ class CollectionViewController: UICollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! WallpaperCollectionViewCell
+        cell.layer.cornerRadius = 15
         cell.wallpaperImage.setImage(with: (viewModel.wallpaper?.hits[indexPath.row].webformatURL ?? "hehe"))
         return cell
     }

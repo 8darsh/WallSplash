@@ -68,14 +68,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q9r-bL-aK4">
-                                <rect key="frame" x="0.0" y="103" width="393" height="749"/>
+                                <rect key="frame" x="0.0" y="77" width="393" height="775"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xoE-DG-Wq2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="q9r-bL-aK4" secondAttribute="bottom" id="5KF-SC-uIZ"/>
-                            <constraint firstItem="q9r-bL-aK4" firstAttribute="top" secondItem="xoE-DG-Wq2" secondAttribute="top" id="ZNG-sw-z1t"/>
+                            <constraint firstItem="q9r-bL-aK4" firstAttribute="top" secondItem="xoE-DG-Wq2" secondAttribute="top" constant="-26" id="ZNG-sw-z1t"/>
                             <constraint firstItem="q9r-bL-aK4" firstAttribute="leading" secondItem="xoE-DG-Wq2" secondAttribute="leading" id="ZOi-ov-IHu"/>
                             <constraint firstItem="xoE-DG-Wq2" firstAttribute="trailing" secondItem="q9r-bL-aK4" secondAttribute="trailing" id="cUE-gS-UqL"/>
                         </constraints>
@@ -94,8 +94,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O4e-Ke-CKR" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9gc-kj-0SE">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="9gc-kj-0SE">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -115,6 +115,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="lGN-Oc-WSX">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <navigationBarAppearance key="scrollEdgeAppearance"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
