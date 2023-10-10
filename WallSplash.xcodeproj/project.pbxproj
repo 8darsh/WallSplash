@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		D222656D2AD56679003E74AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222656C2AD56679003E74AC /* AppDelegate.swift */; };
 		D222656F2AD56679003E74AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222656E2AD56679003E74AC /* SceneDelegate.swift */; };
-		D22265712AD56679003E74AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22265702AD56679003E74AC /* ViewController.swift */; };
 		D22265742AD56679003E74AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22265722AD56679003E74AC /* Main.storyboard */; };
 		D22265762AD5667A003E74AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22265752AD5667A003E74AC /* Assets.xcassets */; };
 		D22265792AD5667A003E74AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22265772AD5667A003E74AC /* LaunchScreen.storyboard */; };
+		D222658C2AD568EF003E74AC /* WallpaperModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222658B2AD568EF003E74AC /* WallpaperModel.swift */; };
+		D22265912AD56999003E74AC /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22265902AD56999003E74AC /* ApiManager.swift */; };
+		D22265932AD56A89003E74AC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22265922AD56A89003E74AC /* Constant.swift */; };
+		D22265952AD56BC5003E74AC /* WallpaperViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22265942AD56BC5003E74AC /* WallpaperViewModel.swift */; };
+		D22265972AD56C7C003E74AC /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22265962AD56C7C003E74AC /* CollectionViewController.swift */; };
+		D22265992AD57E24003E74AC /* WallpaperCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22265982AD57E24003E74AC /* WallpaperCollectionViewCell.swift */; };
+		D222659C2AD5873E003E74AC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D222659B2AD5873E003E74AC /* Kingfisher */; };
+		D222659E2AD58752003E74AC /* UIimage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222659D2AD58752003E74AC /* UIimage + Extension.swift */; };
+		D22265A02AD59E90003E74AC /* PreviewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D222659F2AD59E90003E74AC /* PreviewImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D22265692AD56679003E74AC /* WallSplash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallSplash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D222656C2AD56679003E74AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D222656E2AD56679003E74AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D22265702AD56679003E74AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D22265732AD56679003E74AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D22265752AD5667A003E74AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D22265782AD5667A003E74AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D222657A2AD5667A003E74AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D222658B2AD568EF003E74AC /* WallpaperModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperModel.swift; sourceTree = "<group>"; };
+		D22265902AD56999003E74AC /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		D22265922AD56A89003E74AC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		D22265942AD56BC5003E74AC /* WallpaperViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperViewModel.swift; sourceTree = "<group>"; };
+		D22265962AD56C7C003E74AC /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		D22265982AD57E24003E74AC /* WallpaperCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCollectionViewCell.swift; sourceTree = "<group>"; };
+		D222659D2AD58752003E74AC /* UIimage + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIimage + Extension.swift"; sourceTree = "<group>"; };
+		D222659F2AD59E90003E74AC /* PreviewImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D222659C2AD5873E003E74AC /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,110 @@
 		D222656B2AD56679003E74AC /* WallSplash */ = {
 			isa = PBXGroup;
 			children = (
-				D222656C2AD56679003E74AC /* AppDelegate.swift */,
-				D222656E2AD56679003E74AC /* SceneDelegate.swift */,
-				D22265702AD56679003E74AC /* ViewController.swift */,
-				D22265722AD56679003E74AC /* Main.storyboard */,
-				D22265752AD5667A003E74AC /* Assets.xcassets */,
-				D22265772AD5667A003E74AC /* LaunchScreen.storyboard */,
+				D22265802AD56696003E74AC /* Applications */,
+				D22265812AD566A1003E74AC /* Constants */,
+				D22265842AD566C7003E74AC /* Extensions */,
+				D22265822AD566AD003E74AC /* Utility */,
+				D222658F2AD56981003E74AC /* ApiManager */,
+				D22265862AD566D8003E74AC /* Storyboard */,
+				D22265852AD566D1003E74AC /* Scenes */,
+				D22265872AD566E2003E74AC /* Resources */,
 				D222657A2AD5667A003E74AC /* Info.plist */,
 			);
 			path = WallSplash;
+			sourceTree = "<group>";
+		};
+		D22265802AD56696003E74AC /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				D222656C2AD56679003E74AC /* AppDelegate.swift */,
+				D222656E2AD56679003E74AC /* SceneDelegate.swift */,
+			);
+			path = Applications;
+			sourceTree = "<group>";
+		};
+		D22265812AD566A1003E74AC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D22265922AD56A89003E74AC /* Constant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		D22265822AD566AD003E74AC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		D22265842AD566C7003E74AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D222659D2AD58752003E74AC /* UIimage + Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D22265852AD566D1003E74AC /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D22265882AD56733003E74AC /* Model */,
+				D22265892AD56743003E74AC /* view */,
+				D222658A2AD5674B003E74AC /* ViewModel */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D22265862AD566D8003E74AC /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D22265772AD5667A003E74AC /* LaunchScreen.storyboard */,
+				D22265722AD56679003E74AC /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		D22265872AD566E2003E74AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D22265752AD5667A003E74AC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D22265882AD56733003E74AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D222658B2AD568EF003E74AC /* WallpaperModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D22265892AD56743003E74AC /* view */ = {
+			isa = PBXGroup;
+			children = (
+				D22265962AD56C7C003E74AC /* CollectionViewController.swift */,
+				D22265982AD57E24003E74AC /* WallpaperCollectionViewCell.swift */,
+				D222659F2AD59E90003E74AC /* PreviewImageViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		D222658A2AD5674B003E74AC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D22265942AD56BC5003E74AC /* WallpaperViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D222658F2AD56981003E74AC /* ApiManager */ = {
+			isa = PBXGroup;
+			children = (
+				D22265902AD56999003E74AC /* ApiManager.swift */,
+			);
+			path = ApiManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +194,9 @@
 			dependencies = (
 			);
 			name = WallSplash;
+			packageProductDependencies = (
+				D222659B2AD5873E003E74AC /* Kingfisher */,
+			);
 			productName = WallSplash;
 			productReference = D22265692AD56679003E74AC /* WallSplash.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +225,9 @@
 				Base,
 			);
 			mainGroup = D22265602AD56679003E74AC;
+			packageReferences = (
+				D222659A2AD5873E003E74AC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = D222656A2AD56679003E74AC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +255,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D22265712AD56679003E74AC /* ViewController.swift in Sources */,
+				D222659E2AD58752003E74AC /* UIimage + Extension.swift in Sources */,
+				D222658C2AD568EF003E74AC /* WallpaperModel.swift in Sources */,
+				D22265992AD57E24003E74AC /* WallpaperCollectionViewCell.swift in Sources */,
+				D22265952AD56BC5003E74AC /* WallpaperViewModel.swift in Sources */,
+				D22265A02AD59E90003E74AC /* PreviewImageViewController.swift in Sources */,
+				D22265912AD56999003E74AC /* ApiManager.swift in Sources */,
 				D222656D2AD56679003E74AC /* AppDelegate.swift in Sources */,
+				D22265972AD56C7C003E74AC /* CollectionViewController.swift in Sources */,
 				D222656F2AD56679003E74AC /* SceneDelegate.swift in Sources */,
+				D22265932AD56A89003E74AC /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +487,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D222659A2AD5873E003E74AC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D222659B2AD5873E003E74AC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D222659A2AD5873E003E74AC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D22265612AD56679003E74AC /* Project object */;
 }
